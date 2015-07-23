@@ -14,6 +14,9 @@
 		40D7BBA61B60C5A0006F97EC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40D7BBA51B60C5A0006F97EC /* Images.xcassets */; };
 		40D7BBA91B60C5A0006F97EC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40D7BBA71B60C5A0006F97EC /* LaunchScreen.xib */; };
 		40D7BBB51B60C5A0006F97EC /* categoriesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 40D7BBB41B60C5A0006F97EC /* categoriesTests.m */; };
+		40D7BBC61B60C9DF006F97EC /* NSString+StringRemoveSpace.m in Sources */ = {isa = PBXBuildFile; fileRef = 40D7BBC51B60C9DF006F97EC /* NSString+StringRemoveSpace.m */; };
+		40D7BBC91B60CCB4006F97EC /* UIColor+BackgroundColorchange.m in Sources */ = {isa = PBXBuildFile; fileRef = 40D7BBC81B60CCB4006F97EC /* UIColor+BackgroundColorchange.m */; };
+		40D7BBD21B6102AD006F97EC /* NSArray+ArrayCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 40D7BBD11B6102AD006F97EC /* NSArray+ArrayCategory.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,12 @@
 		40D7BBAE1B60C5A0006F97EC /* categoriesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = categoriesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		40D7BBB31B60C5A0006F97EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		40D7BBB41B60C5A0006F97EC /* categoriesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = categoriesTests.m; sourceTree = "<group>"; };
+		40D7BBC41B60C9DF006F97EC /* NSString+StringRemoveSpace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+StringRemoveSpace.h"; sourceTree = "<group>"; };
+		40D7BBC51B60C9DF006F97EC /* NSString+StringRemoveSpace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+StringRemoveSpace.m"; sourceTree = "<group>"; };
+		40D7BBC71B60CCB4006F97EC /* UIColor+BackgroundColorchange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+BackgroundColorchange.h"; sourceTree = "<group>"; };
+		40D7BBC81B60CCB4006F97EC /* UIColor+BackgroundColorchange.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+BackgroundColorchange.m"; sourceTree = "<group>"; };
+		40D7BBD01B6102AD006F97EC /* NSArray+ArrayCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+ArrayCategory.h"; sourceTree = "<group>"; };
+		40D7BBD11B6102AD006F97EC /* NSArray+ArrayCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+ArrayCategory.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +72,12 @@
 		40D7BB8C1B60C5A0006F97EC = {
 			isa = PBXGroup;
 			children = (
+				40D7BBD01B6102AD006F97EC /* NSArray+ArrayCategory.h */,
+				40D7BBD11B6102AD006F97EC /* NSArray+ArrayCategory.m */,
+				40D7BBC71B60CCB4006F97EC /* UIColor+BackgroundColorchange.h */,
+				40D7BBC81B60CCB4006F97EC /* UIColor+BackgroundColorchange.m */,
+				40D7BBC41B60C9DF006F97EC /* NSString+StringRemoveSpace.h */,
+				40D7BBC51B60C9DF006F97EC /* NSString+StringRemoveSpace.m */,
 				40D7BB971B60C5A0006F97EC /* categories */,
 				40D7BBB11B60C5A0006F97EC /* categoriesTests */,
 				40D7BB961B60C5A0006F97EC /* Products */,
@@ -220,8 +235,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				40D7BBA11B60C5A0006F97EC /* ViewController.m in Sources */,
+				40D7BBC91B60CCB4006F97EC /* UIColor+BackgroundColorchange.m in Sources */,
+				40D7BBD21B6102AD006F97EC /* NSArray+ArrayCategory.m in Sources */,
 				40D7BB9E1B60C5A0006F97EC /* AppDelegate.m in Sources */,
 				40D7BB9B1B60C5A0006F97EC /* main.m in Sources */,
+				40D7BBC61B60C9DF006F97EC /* NSString+StringRemoveSpace.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,6 +436,7 @@
 				40D7BBBA1B60C5A0006F97EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		40D7BBBB1B60C5A0006F97EC /* Build configuration list for PBXNativeTarget "categoriesTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +445,7 @@
 				40D7BBBD1B60C5A0006F97EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

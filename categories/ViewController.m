@@ -8,16 +8,32 @@
 
 #import "ViewController.h"
 
-@interface ViewController ()
 
+@interface ViewController ()
+{
+    NSArray *Data;
+
+}
 @end
 
 @implementation ViewController
 
-- (void)viewDidLoad {
+- (void)viewDidLoad
+{
+    Data=[NSArray arrayWithObjects:@"karthi",@"kar",@"ramya", nil];
     [super viewDidLoad];
+    NSString *str=@"karthiga katniss";
+    str=[str removeSpace:str];
+    NSLog(@"\n%@",str);
+    UIColor *image=[UIColor new];
+    self.view.backgroundColor=[image showViewWithBackgroundColor];
+    NSInteger display=[Data count1:Data];
+    NSLog(@"%ld",(long)display);
+    
+    
     // Do any additional setup after loading the view, typically from a nib.
 }
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
